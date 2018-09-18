@@ -36,7 +36,7 @@
         <input type="text" id="address" name="address" placeholder="Jūsų adresas.." required>
 
         <label for="pnum">Telefono numeris</label>
-        <input type="number" id="phonenumber" name="phonenumber" placeholder="Jūsų tel. numeris.." required>
+        <input type="number" id="phonenumber" name="phonenumber" pattern="[0-9]{,11}" placeholder="Jūsų tel. numeris.." required>
 
         <input type="submit" value="Užsakyti" id="submit">
       </form>
