@@ -147,21 +147,27 @@
           $pageminus = $page - 1;
           $pageplus = $page + 1;
 
-          if($page > 1) {
-            $prev = "<a style=\"background-color:lightgray;\" href=\"?page=$pageminus\"><</a>";
-         } else $prev = "";
-
-          if($page != $total_pages) {
-            $next = "<a style=\"background-color:lightgray;\" href=\"?page=$pageplus\">></a>";
-          } else $next = "";
-
-          if($total_pages == 1) {
+          if($total_pages <= 1) {
             $first = "";
             $last = "";
             $next = "";
           } else {
             $first = "<a style=\"background-color:lightgray;\" href=\"?page=1\">Pirmas</a>";
             $last = "<a style=\"background-color:lightgray;\" href=\"?page=$total_pages\">Paskutinis</a>";
+          }
+
+          if($page > 1) {
+            $prev = "<a style=\"background-color:lightgray;\" href=\"?page=$pageminus\"><</a>";
+         } else {
+            $prev = "";
+            $first = "";
+         }
+
+          if($page != $total_pages) {
+            $next = "<a style=\"background-color:lightgray;\" href=\"?page=$pageplus\">></a>";
+          } else{
+            $next = "";
+            $last = "";
           }
 
           if($total_rows == 0) {
