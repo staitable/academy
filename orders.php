@@ -96,7 +96,7 @@
     <div class="form2">
       <form action="?page=1" method="post">
       <label for="search">Paieška:</label>
-      <input type="text" id="search" name="search" placeholder="Paieška..">
+      <input type="text" id="search" name="search" placeholder="Paieška.." pattern="[^'\x22]+" title="Neteisingas paieškos formatas, naudokite tik raides ir skaičius!">
 
       <label for="order">Rikiavimas:</label>
       <select name="order">

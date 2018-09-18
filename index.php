@@ -27,10 +27,10 @@
     <div class="form">
       <form action="order.php" method="post">
         <label for="fname">Vardas</label>
-        <input type="text" id="firstname" name="firstname" placeholder="Jūsų vardas.." required>
+        <input type="text" id="firstname" name="firstname" placeholder="Jūsų vardas.." pattern="[A-Za-z]+" title="Tik raidės, jokių skaičių ar simbolių!" required>
 
         <label for="lname">Pavardė</label>
-        <input type="text" id="lastname" name="lastname" placeholder="Jūsų pavardė.." required>
+        <input type="text" id="lastname" name="lastname" placeholder="Jūsų pavardė.." pattern="[A-Za-z]+" title="Tik raidės, jokių skaičių ar simbolių!" required>
 
         <label for="adr">Adresas</label>
         <input type="text" id="address" name="address" placeholder="Jūsų adresas.." required>
