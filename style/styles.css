@@ -205,4 +205,14 @@ table td{
     letter-spacing:4px;
     font-size:26px!important;
   }
+
+  .data-table{
+    font-size:10px;
+    width:100%;
+  }
+
+  .data-table th,
+  .data-table td{
+    padding:5px 5px;
+  }
 }
