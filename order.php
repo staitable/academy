@@ -24,7 +24,7 @@
       $atsakymas = "Užsakymas buvo atliktas!";
       mysqli_close($connection);
     } else{
-      $atsakymas = "Klaida darant užsakymą!" . $query . "<br>" . mysqli_error($connection);
+      $atsakymas = "Klaida darant užsakymą!"."<br>" . mysqli_error($connection);
     }
   }
 
