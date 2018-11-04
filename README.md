@@ -15,8 +15,11 @@ Reikalavimai sprendimui:
 - Vertinsime sprendimo kokybę ir išbaigtumą, atkreipiant dėmesį į šiuos aspektus:
 
 Main Features – List, Details, Paging, Sorting, Search, Input, Filter;
+
 Database - Structure, Fixtures, SQL Dump;
+
 Back-end – MVC, dbConn, Objects;
+
 Front-end – CSS, JSS.
 
 - Už nulūžimus balai atimami;
