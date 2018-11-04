@@ -1,5 +1,5 @@
 # academy
-A small task for NFQ Academy
+A small task for NFQ Academy (https://netikras100.herokuapp.com/)
 
 
 
