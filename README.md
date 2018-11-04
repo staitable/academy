@@ -3,6 +3,7 @@ A small task for NFQ Academy
 
 
 Užduotis:
+
 Tavo draugas turi mažą verslą, gamina vieną produktą arba teikia paslaugą. Vakarojant prasitarė, kad norėtų internetinės svetainės - parduotuvės. Pasiūlyk savo draugui sprendimą:
 
 Panaudojant PHP ir MySQL/MariaDB sukurk du puslapius:
